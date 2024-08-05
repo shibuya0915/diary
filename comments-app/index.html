@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コメント機能付きページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>コメントセクション</h1>
+
+    <!-- コメント投稿フォーム -->
+    <form id="commentForm">
+        <input type="text" name="username" placeholder="ユーザー名" required>
+        <textarea name="comment_text" placeholder="コメントを入力" required></textarea>
+        <button type="submit">投稿</button>
+    </form>
+
+    <!-- コメントが表示されるセクション -->
+    <div id="comments">
+        <!-- JavaScriptで動的にコメントをここに追加します -->
+    </div>
+
+    <!-- スクリプトファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
